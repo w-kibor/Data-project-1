@@ -82,6 +82,9 @@ Created grouped visualizations to compare:
 
 AI impact across different countries and industries.
 
+![Impact of AI](https://github.com/user-attachments/assets/7b57fed0-60da-4261-9881-858dc9443de2)
+
+
 Market trends and trust levels by region.
 
 
@@ -90,13 +93,22 @@ Market trends and trust levels by region.
 select * from global_ai_content_impact_dataset
 where Country = 'France' and `Year` = 2025;
 ```
+
+
+![Impact of AI 1](https://github.com/user-attachments/assets/2c87bfa9-e97d-4c0d-bb90-8fecb6b298c4)
+
+
 ### Results/Findings
    
 1. Countries with strong regulatory frameworks tend to show higher consumer trust.
 
 2. Industries with a high human-AI collaboration rate often experienced lower job loss percentages.
 
-3. Tools like GPT and DALL·E appeared frequently among top AI tools used in content generation.
+3. Tools like Bard and DALL·E appeared frequently among top AI tools used in content generation.
+
+   
+![Impact of AI 2](https://github.com/user-attachments/assets/46ff5c77-12b8-43e3-9973-2b6e49f3808c)
+
 
 ### Recommendations
 
