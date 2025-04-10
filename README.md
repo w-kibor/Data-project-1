@@ -15,22 +15,25 @@
 
 
 ### Project Overview
+---
 
 This project analyzes the impact of Artificial Intelligence (AI) on the digital media industry across various countries. It examines key factors such as AI adoption rates, the volume of AI-generated content, and the extent of job losses due to AI. Additionally, the project explores the revenue increases driven by AI, the rate of human-AI collaboration, and the tools most commonly used in the industry. The analysis also covers the regulatory landscape, consumer trust in AI, and the market share of AI companies. Through this data-driven approach, the project highlights the evolving role of AI in transforming the digital media sector.
 
 
 ### Data Sources
-
+---
 
 The primary dataset used for this analysis is the 'Global_AI_Content_Impact_Dataset.csv' file containing detailed information about the influence of AI-generated content across various industries, including journalism, social media, entertainment, and marketing.
 
 
 ### Tools
+---
 - Excel - Data Cleaning
 - SQL server - Data Analysis
 - Tableau - Creating dashbords and reports
 
 ### Data Cleaning/Preparation
+---
 
 In the initial data cleaning phase, I performed the following tasks:
 1. Data Loading and Inspecion.
@@ -38,6 +41,7 @@ In the initial data cleaning phase, I performed the following tasks:
 3. Data Cleaning and Formatting.
 
 ### Explanatory Data Analysis
+---
 In this stage, I conducted an in-depth exploration of the dataset to uncover patterns, trends, and relationships between variables related to the impact of AI on digital media. The key steps in the EDA process included:
 
 #### 1. Data Overview and Cleaning
@@ -89,6 +93,7 @@ Market trends and trust levels by region.
 
 
 ### Data Analysis
+---
 ```use ai_impact;
 select * from global_ai_content_impact_dataset
 where Country = 'France' and `Year` = 2025;
@@ -99,6 +104,7 @@ where Country = 'France' and `Year` = 2025;
 
 
 ### Results/Findings
+---
    
 1. Countries with strong regulatory frameworks tend to show higher consumer trust.
 
@@ -111,6 +117,7 @@ where Country = 'France' and `Year` = 2025;
 
 
 ### Recommendations
+---
 
 #### 1. Encourage Balanced AI Adoption
 
@@ -145,6 +152,7 @@ AI-driven personalization should be used to enhance user experience, but with cl
 Companies should stay updated with emerging AI tools and trends in media, ensuring they adopt the most effective and responsible technologies that align with their business goals.
 
 ### Limitations
+---
 
 #### 1. Limited Data Availability
 The dataset may not cover all countries or industries comprehensively, which could limit the generalizability of the findings.
@@ -155,6 +163,7 @@ Some countries may have outdated or incomplete data, especially in areas like AI
 The field of AI is evolving rapidly. New tools and trends may have emerged since the data was collected, making some insights time-sensitive or less relevant over time.
 
 ### References
+---
 1. kaggle datasets  [Click Here](https://www.kaggle.com/datasets)
 2. Her Data Project [Youtube Channel](https://www.youtube.com/@herdataproject)
 
