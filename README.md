@@ -40,7 +40,7 @@ In the initial data cleaning phase, I performed the following tasks:
 2. Handling Missing Values.
 3. Data Cleaning and Formatting.
 
-### Explanatory Data Analysis
+### Exploratory Data Analysis
 ---
 In this stage, I conducted an in-depth exploration of the dataset to uncover patterns, trends, and relationships between variables related to the impact of AI on digital media. The key steps in the EDA process included:
 
